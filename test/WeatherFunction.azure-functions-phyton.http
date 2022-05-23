@@ -1,0 +1,10 @@
+@coordinates = 41.070747,29.018019
+@functionCode= 
+
+GET https://my-maps-functions-phyton.azurewebsites.net/api/forecast/current?coordinates={{coordinates}}&code={{functionCode}}
+###
+GET https://my-maps-functions-phyton.azurewebsites.net/api/forecast/daily?coordinates={{coordinates}}&code={{functionCode}}
+###
+GET https://my-maps-functions-phyton.azurewebsites.net/api/forecast/hourly?coordinates={{coordinates}}&code={{functionCode}}
+###
+GET https://my-maps-functions-phyton.azurewebsites.net/api/forecast/minutebyminute?coordinates={{coordinates}}&code={{functionCode}}
