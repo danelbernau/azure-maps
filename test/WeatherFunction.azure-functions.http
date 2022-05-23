@@ -1,5 +1,5 @@
 @coordinates = 41.070747,29.018019
-@functionCode= 
+@functionCode= IGlrm_hQdIsjDHEcH5nVvJkhFnIaj366KR_tEQM3ZHMlAzFuwDY75w==
 
 GET https://my-maps-functions.azurewebsites.net/api/forecast/current?coordinates={{coordinates}}&code={{functionCode}}
 ###
