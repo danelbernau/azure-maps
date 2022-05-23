@@ -8,7 +8,7 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: MyMaps.Function/publish
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 6.0.x
-  WORKING_DIRECTORY: MyMaps.Function
+  WORKING_DIRECTORY: src/csharp/MyMaps.Function
 jobs:
   build-and-deploy:
     runs-on: windows-latest
