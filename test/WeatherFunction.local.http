@@ -1,0 +1,8 @@
+@coordinates = 41.070747,29.018019
+GET http://localhost:7071/api/forecast/current?coordinates={{coordinates}}
+###
+GET http://localhost:7071/api/forecast/daily?coordinates={{coordinates}}
+###
+GET http://localhost:7071/api/forecast/hourly?coordinates={{coordinates}}
+###
+GET http://localhost:7071/api/forecast/minutebyminute?coordinates={{coordinates}}
