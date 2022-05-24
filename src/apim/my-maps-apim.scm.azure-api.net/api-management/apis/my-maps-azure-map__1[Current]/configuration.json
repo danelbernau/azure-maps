@@ -1,0 +1,142 @@
+{
+  "id": "/apis/628cb5d7f4557dc674c6dfda",
+  "name": "my-maps-azure-map",
+  "apiRevision": "1",
+  "$ref-description": "api-management/apis/my-maps-azure-map__1[Current]/api.description.html",
+  "subscriptionRequired": true,
+  "serviceUrl": null,
+  "path": "azure-maps",
+  "protocols": [
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/628cb5d7f4557dc674c6dfda/operations/628cb5d98e2ee27c7db3bd2d",
+      "name": "current",
+      "method": "GET",
+      "urlTemplate": "/forecast/current?coordinates={coordinates}",
+      "templateParameters": [
+        {
+          "name": "coordinates",
+          "type": "",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [
+          {
+            "name": "coordinates",
+            "type": "",
+            "values": []
+          }
+        ],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-azure-map__1[Current]/operations/GET__forecast_current_coor0NHZUN.xml"
+    },
+    {
+      "id": "/apis/628cb5d7f4557dc674c6dfda/operations/628cb5d93dc2a7e752df4381",
+      "name": "daily",
+      "method": "GET",
+      "urlTemplate": "/forecast/daily?coordinates={coordinates}",
+      "templateParameters": [
+        {
+          "name": "coordinates",
+          "type": "",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [
+          {
+            "name": "coordinates",
+            "type": "",
+            "values": []
+          }
+        ],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-azure-map__1[Current]/operations/GET__forecast_daily_coordiORA9VU.xml"
+    },
+    {
+      "id": "/apis/628cb5d7f4557dc674c6dfda/operations/628cb5d9611ebc323bfb3d47",
+      "name": "hourly",
+      "method": "GET",
+      "urlTemplate": "/forecast/hourly?coordinates={coordinates}",
+      "templateParameters": [
+        {
+          "name": "coordinates",
+          "type": "",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [
+          {
+            "name": "coordinates",
+            "type": "",
+            "values": []
+          }
+        ],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-azure-map__1[Current]/operations/GET__forecast_hourly_coord9V01EG.xml"
+    },
+    {
+      "id": "/apis/628cb5d7f4557dc674c6dfda/operations/628cb5d912fa3f2aac0f2679",
+      "name": "minuteByMinute",
+      "method": "GET",
+      "urlTemplate": "/forecast/minutebyminute?coordinates={coordinates}",
+      "templateParameters": [
+        {
+          "name": "coordinates",
+          "type": "",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [
+          {
+            "name": "coordinates",
+            "type": "",
+            "values": []
+          }
+        ],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-azure-map__1[Current]/operations/GET__forecast_minutebymin19GZTT1.xml"
+    }
+  ],
+  "apiSchemas": [],
+  "$ref-policy": "api-management/policies/apis/my-maps-azure-map__1[Current].xml",
+  "__GitModuleVersion": 17
+}

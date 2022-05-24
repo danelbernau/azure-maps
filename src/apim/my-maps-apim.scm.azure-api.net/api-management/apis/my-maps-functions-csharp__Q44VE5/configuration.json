@@ -1,0 +1,89 @@
+{
+  "id": "/apis/my-maps-functions-csharp",
+  "name": "my-maps-functions-csharp",
+  "apiRevision": "1",
+  "$ref-description": "api-management/apis/my-maps-functions-csharp__Q44VE5/api.description.html",
+  "subscriptionRequired": true,
+  "serviceUrl": null,
+  "path": "csharp",
+  "protocols": [
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/my-maps-functions-csharp/operations/get-current",
+      "name": "current",
+      "method": "GET",
+      "urlTemplate": "/forecast/current",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-csharp__Q44VE5/operations/GET__forecast_current_my-mD5QDMG.xml"
+    },
+    {
+      "id": "/apis/my-maps-functions-csharp/operations/get-daily",
+      "name": "daily",
+      "method": "GET",
+      "urlTemplate": "/forecast/daily",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-csharp__Q44VE5/operations/GET__forecast_daily_my-ma12SCJ1U.xml"
+    },
+    {
+      "id": "/apis/my-maps-functions-csharp/operations/get-hourly",
+      "name": "hourly",
+      "method": "GET",
+      "urlTemplate": "/forecast/hourly",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-csharp__Q44VE5/operations/GET__forecast_hourly_my-m146N7XX.xml"
+    },
+    {
+      "id": "/apis/my-maps-functions-csharp/operations/get-minutebyminute",
+      "name": "minuteByMinute",
+      "method": "GET",
+      "urlTemplate": "/forecast/minutebyminute",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-csharp__Q44VE5/operations/GET__forecast_minutebymin1819P2A.xml"
+    }
+  ],
+  "apiSchemas": [],
+  "__GitModuleVersion": 17
+}

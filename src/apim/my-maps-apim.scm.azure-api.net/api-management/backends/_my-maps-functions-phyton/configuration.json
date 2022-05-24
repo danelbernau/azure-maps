@@ -1,0 +1,16 @@
+{
+  "id": "/backends/my-maps-functions-phyton",
+  "title": null,
+  "description": "my-maps-functions-phyton",
+  "url": "https://my-maps-functions-phyton.azurewebsites.net/api",
+  "protocol": "http",
+  "resourceId": "https://management.azure.com/subscriptions/c21d876a-9240-4bdf-ab18-f9b03453ed5a/resourceGroups/azure-maps-demo/providers/Microsoft.Web/sites/my-maps-functions-phyton",
+  "credentials": {
+    "header": {
+      "x-functions-key": [
+        "{{my-maps-functions-phyton-key}}"
+      ]
+    }
+  },
+  "__GitModuleVersion": 17
+}

@@ -1,0 +1,89 @@
+{
+  "id": "/apis/my-maps-functions-phyton",
+  "name": "my-maps-functions-phyton",
+  "apiRevision": "1",
+  "$ref-description": "api-management/apis/my-maps-functions-phyton_1XYFH5T/api.description.html",
+  "subscriptionRequired": true,
+  "serviceUrl": null,
+  "path": "phyton",
+  "protocols": [
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/my-maps-functions-phyton/operations/get-weatherfunctioncurrent",
+      "name": "WeatherFunctionCurrent",
+      "method": "GET",
+      "urlTemplate": "/forecast/current",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-phyton_1XYFH5T/operations/GET__forecast_current_my-mNS7Q9F.xml"
+    },
+    {
+      "id": "/apis/my-maps-functions-phyton/operations/get-weatherfunctiondaily",
+      "name": "WeatherFunctionDaily",
+      "method": "GET",
+      "urlTemplate": "/forecast/daily",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-phyton_1XYFH5T/operations/GET__forecast_daily_my-mapQD70SN.xml"
+    },
+    {
+      "id": "/apis/my-maps-functions-phyton/operations/get-weatherfunctionhourly",
+      "name": "WeatherFunctionHourly",
+      "method": "GET",
+      "urlTemplate": "/forecast/hourly",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-phyton_1XYFH5T/operations/GET__forecast_hourly_my-ma83ZIK9.xml"
+    },
+    {
+      "id": "/apis/my-maps-functions-phyton/operations/get-weatherfunctionminutebyminute",
+      "name": "WeatherFunctionMinuteByMinute",
+      "method": "GET",
+      "urlTemplate": "/forecast/minutebyminute",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/my-maps-functions-phyton_1XYFH5T/operations/GET__forecast_minutebyminu3POGQ4.xml"
+    }
+  ],
+  "apiSchemas": [],
+  "__GitModuleVersion": 17
+}
