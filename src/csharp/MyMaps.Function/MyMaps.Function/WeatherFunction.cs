@@ -50,7 +50,7 @@ namespace MyMaps.Function
 
         [FunctionName("hourly")]
         public static async Task<IActionResult> GetHourlyForecastAsync(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = "forecast/hourly")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "forecast/hourly")] HttpRequest req,
             ILogger log)
         {
             string coordinates = req.Query["coordinates"];
@@ -63,7 +63,7 @@ namespace MyMaps.Function
 
         [FunctionName("minuteByMinute")]
         public static async Task<IActionResult> GetMinuteByMinuteForecastAsync(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = "forecast/minutebyminute")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "forecast/minutebyminute")] HttpRequest req,
             ILogger log)
         {
             string coordinates = req.Query["coordinates"];
